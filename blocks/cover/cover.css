@@ -1,0 +1,36 @@
+.cover{
+  outline: solid red;
+  margin: 90px auto 0;
+  padding: 0;
+  background-image: url(../russian-travel/img/backgroundS.jpg);
+  background-size: 100%;
+  max-width: 1184px;
+  max-height: 740px;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1024px){
+  .cover{
+    margin: 92px 0 0 0;
+    max-width: 1024px;
+    max-height: 640px;
+  }
+}
+@media screen and (max-width: 768px){
+  .cover{
+    display: block;
+    max-width: 768px;
+    max-height: 480px;
+    margin-top: 90px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 320px){
+  .cover{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 66px;
+    max-width: 320px;
+    max-height: 200px;
+  }
+}

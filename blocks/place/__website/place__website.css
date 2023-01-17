@@ -1,0 +1,23 @@
+.place__website{
+  outline: solid red;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+  gap: 12px;
+}
+@media screen and (max-width: 768px)
+{
+  .place__website{
+    max-width: 456px;
+}
+}
+@media screen and (max-width: 320px)
+{
+  .place__website{
+    max-width: 288px;
+    margin-left: 16px;
+    gap: 12px;
+}
+}
