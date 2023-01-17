@@ -11,7 +11,7 @@
   max-width: 360px;
   color: white;
 }
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
   .cover__subtitle{
     font-weight: 400;
     font-size: 18px;
@@ -19,7 +19,7 @@
     text-align: center;
   }
 }
-@media screen and (min-width: 320px){
+@media screen and (max-width: 320px){
   .cover__subtitle{
     max-width: 288px;
     margin-top: 16px;

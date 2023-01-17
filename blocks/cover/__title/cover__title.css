@@ -16,7 +16,7 @@
     padding-top: 195px;
   }
 }
-@media screen and (min-width: 768px){
+@media screen and (max-width: 768px){
   .cover__title{
     margin: 0 auto 32px;
     padding: 115px 0 0 0;
@@ -26,7 +26,7 @@
     text-align: center;
   }
 }
-@media screen and (min-width: 320px){
+@media screen and (max-width: 320px){
   .cover__title{
     margin: 0 auto 0;
     padding: 33px 0 0 0;
