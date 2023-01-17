@@ -1,5 +1,4 @@
 .place{
-  outline: solid red;
   margin: 0 0 80px 0;
   padding: 0;
   display: grid;
@@ -24,6 +23,15 @@
     margin: 0 0 73px 0;
     max-width: 720px;
     grid-template-columns: 47.22% 48.89%;
+  }
+}
+@media screen and (max-width: 600px){
+  .place{
+    margin: 0 auto 50px;
+    display: grid;
+    grid-template-columns: 320px;
+    grid-row-gap: 32px;
+    grid-template-rows:min-content;
   }
 }
 @media screen and (max-width: 320px){

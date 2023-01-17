@@ -1,5 +1,6 @@
 .photo-grid__item{
-  outline: solid red;
+  margin: 0;
+  padding: 0;
   max-width: 284px;
   max-height: 213px;
 }
@@ -15,6 +16,13 @@
     max-height: 264px;
   }
 }
+@media screen and (max-width: 600px) {
+  .photo-grid__item{
+    margin: 0 auto;
+    max-width: 288px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .photo-grid__item{
     max-width: 288px;
