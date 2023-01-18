@@ -8,7 +8,6 @@
   letter-spacing: 0em;
   text-align: center;
   max-width: 560px;
-  color: white;
 }
 @media screen and (max-width: 1024px){
   .cover__title{
