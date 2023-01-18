@@ -6,21 +6,13 @@
   align-self: end;
   gap: 12px;
 }
-@media screen and (max-width: 768px)
+@media screen and (max-width: 970px)
 {
   .place__website{
     max-width: 456px;
 }
 }
-@media screen and (max-width: 600px)
-{
-  .place__website{
-    max-width: 288px;
-    margin-left: 16px;
-    gap: 12px;
-}
-}
-@media screen and (max-width: 320px)
+@media screen and (max-width: 700px)
 {
   .place__website{
     max-width: 288px;

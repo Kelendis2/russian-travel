@@ -4,26 +4,19 @@
   max-width: 284px;
   max-height: 213px;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1220px) {
   .photo-grid__item{
     max-width: 300px;
     max-height: 225px;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 970px) {
   .photo-grid__item{
     max-width: 352px;
     max-height: 264px;
   }
 }
-@media screen and (max-width: 600px) {
-  .photo-grid__item{
-    margin: 0 auto;
-    max-width: 288px;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 700px) {
   .photo-grid__item{
     max-width: 288px;
   }
