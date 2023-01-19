@@ -6,21 +6,15 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
+  letter-spacing: 0em;
 }
-
-@media screen and (max-width: 970px){
-  .footer__link{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-  }
+.footer__link:hover{
+  opacity: 0.8;
 }
 @media screen and (max-width: 700px){
   .footer__link{
     font-size: 24px;
-    font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0em;
     text-align: left;
   }
 }

@@ -3,12 +3,10 @@
   display: block;
   max-width: 1184px;
   min-height: 740px;
-  height: auto;
   align-items: center;
-}
-.cover__link:hover{
   background-color: rgba(42, 44, 47, 0.8);
 }
+
 @media screen and (max-width: 1220px){
   .cover__link{
     max-width: 1024px;
@@ -24,12 +22,12 @@
 @media screen and (max-width: 700px){
   .cover__link{
     max-width: 630px;
-    max-height: 250px;
+    min-height: 250px;
 }
 }
 @media screen and (max-width: 320px){
   .cover__link{
     max-width: 320px;
-    max-height: 200px;
+    min-height: 200px;
 }
 }
