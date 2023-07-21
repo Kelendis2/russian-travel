@@ -1,32 +1,32 @@
 # Проект: Путешествие по России
 
-### Обзор
-* Интро
+### Review
+* Intro
 * Figma
-* Проект на GitHab
-* Желаемые доработки
+* Project on GitHab
+* Desired improvements
 
 
-**Интро**
+**Intro**
 
-Проект о путешествии по России.
-Выполнен в рамках обучения в Яндекс.Практикуме.
-Выполнен по проекту из Figma.
-
+This is a responsive one-page site that tells about a trip to Russia. Completed as part of the second
+design work in Yandex.Practice.
+Responsive layout was carried out according to the layout from Figma, connected fonts. Used: `HTML`, `CSS`, `BEM (Nested)`, `pseudo-classes
+and pseudo-elements`, `flexbox`, `grid layout`.
 
 **Figma**
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+* [Link to layout in Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
-**Проект на GitHab**
-Ссылка на проект в GitHab: https://kelendis2.github.io/russian-travel/
+**Project on GitHab**
+* [Link to layout in Figma](https://kelendis2.github.io/russian-travel)
 
-**Желаемые доработки**
-Смена классов в секции plases
-Добавление тега pictures для блоков lead и cover
-Введения дополнительного медиазапроса  для улучшения промежуточного отображения от 320px  до 768px
-Добавление  transition для интерактивных элементов
-Введение более подходящих alt для photo-grid__item
+**Desired improvements**
 
-
+- [x] Changing classes in the plases section
+- [x] Adding pictures tag for lead and cover blocks
+- [x] Introducing an additional media query to improve intermediate rendering from 320px to 768px
+- [x] Adding a transition for interactive elements
+- [x] Introducing better alts for photo-grid__item
+- [x] Add an English version of the site
 
